@@ -1,5 +1,7 @@
-package com.skillbox.sb_practice.dto;
+package com.skillbox.sb_practice.dto.news;
 
+
+import com.skillbox.sb_practice.dto.users.UserShortResponse;
 
 import java.time.LocalDateTime;
 

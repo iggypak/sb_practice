@@ -1,8 +1,8 @@
 package com.skillbox.sb_practice.service;
 
-import com.skillbox.sb_practice.dto.CategoryRequest;
-import com.skillbox.sb_practice.dto.CategoryResponse;
-import com.skillbox.sb_practice.dto.CommonUpsertResponse;
+import com.skillbox.sb_practice.dto.categoies.CategoryRequest;
+import com.skillbox.sb_practice.dto.categoies.CategoryResponse;
+import com.skillbox.sb_practice.dto.comments.CommonUpsertResponse;
 import com.skillbox.sb_practice.exceptions.EntityNotFoundException;
 import com.skillbox.sb_practice.mapper.CategoryMapper;
 import com.skillbox.sb_practice.repository.CategoryRepository;

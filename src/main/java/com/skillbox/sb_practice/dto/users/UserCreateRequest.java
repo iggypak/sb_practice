@@ -1,4 +1,4 @@
-package com.skillbox.sb_practice.dto;
+package com.skillbox.sb_practice.dto.users;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

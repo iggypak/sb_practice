@@ -1,4 +1,4 @@
-package com.skillbox.sb_practice.dto;
+package com.skillbox.sb_practice.dto.categoies;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;

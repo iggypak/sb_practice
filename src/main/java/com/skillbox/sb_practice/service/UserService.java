@@ -1,11 +1,9 @@
 package com.skillbox.sb_practice.service;
 
-import com.skillbox.sb_practice.dto.CommonUpsertResponse;
-import com.skillbox.sb_practice.dto.UserCreateRequest;
-import com.skillbox.sb_practice.dto.UserResponse;
-import com.skillbox.sb_practice.dto.UserUpdateRequest;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
+import com.skillbox.sb_practice.dto.comments.CommonUpsertResponse;
+import com.skillbox.sb_practice.dto.users.UserCreateRequest;
+import com.skillbox.sb_practice.dto.users.UserResponse;
+import com.skillbox.sb_practice.dto.users.UserUpdateRequest;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
 package com.skillbox.sb_practice.controller;
 
-import com.skillbox.sb_practice.dto.CommonUpsertResponse;
-import com.skillbox.sb_practice.dto.UserCreateRequest;
-import com.skillbox.sb_practice.dto.UserResponse;
-import com.skillbox.sb_practice.dto.UserUpdateRequest;
+import com.skillbox.sb_practice.dto.comments.CommonUpsertResponse;
+import com.skillbox.sb_practice.dto.users.UserCreateRequest;
+import com.skillbox.sb_practice.dto.users.UserResponse;
+import com.skillbox.sb_practice.dto.users.UserUpdateRequest;
 import com.skillbox.sb_practice.service.UserServiceImpl;
 import jakarta.validation.Valid;
 import jakarta.websocket.server.PathParam;
@@ -42,9 +42,7 @@ public class UserController {
         userService.delete(id);
         return ResponseEntity.noContent().build();
     }
-    //getAll
 
-    //getById
     @GetMapping("/{id}")
     public ResponseEntity<UserResponse> getById(@PathVariable Long id) {
         return ResponseEntity.ok(userService.getById(id));

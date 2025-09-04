@@ -1,4 +1,6 @@
-package com.skillbox.sb_practice.dto;
+package com.skillbox.sb_practice.dto.news;
+
+import com.skillbox.sb_practice.dto.comments.CommentResponse;
 
 import java.time.LocalDateTime;
 import java.util.List;

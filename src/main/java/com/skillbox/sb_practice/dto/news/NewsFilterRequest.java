@@ -1,4 +1,4 @@
-package com.skillbox.sb_practice.dto;
+package com.skillbox.sb_practice.dto.news;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.PositiveOrZero;

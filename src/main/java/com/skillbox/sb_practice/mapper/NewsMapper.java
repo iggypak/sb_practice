@@ -1,9 +1,9 @@
 package com.skillbox.sb_practice.mapper;
 
-import com.skillbox.sb_practice.dto.NewsCreateRequest;
-import com.skillbox.sb_practice.dto.NewsResponse;
-import com.skillbox.sb_practice.dto.NewsResponseItem;
-import com.skillbox.sb_practice.dto.NewsUpdateRequest;
+import com.skillbox.sb_practice.dto.news.NewsCreateRequest;
+import com.skillbox.sb_practice.dto.news.NewsResponse;
+import com.skillbox.sb_practice.dto.news.NewsResponseItem;
+import com.skillbox.sb_practice.dto.news.NewsUpdateRequest;
 import com.skillbox.sb_practice.entity.News;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

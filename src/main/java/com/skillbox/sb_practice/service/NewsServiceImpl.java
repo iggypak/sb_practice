@@ -1,6 +1,10 @@
 package com.skillbox.sb_practice.service;
 
-import com.skillbox.sb_practice.dto.*;
+import com.skillbox.sb_practice.dto.comments.CommonUpsertResponse;
+import com.skillbox.sb_practice.dto.news.NewsCreateRequest;
+import com.skillbox.sb_practice.dto.news.NewsResponse;
+import com.skillbox.sb_practice.dto.news.NewsResponseItem;
+import com.skillbox.sb_practice.dto.news.NewsUpdateRequest;
 import com.skillbox.sb_practice.exceptions.EntityNotFoundException;
 import com.skillbox.sb_practice.mapper.NewsMapper;
 import com.skillbox.sb_practice.repository.CategoryRepository;

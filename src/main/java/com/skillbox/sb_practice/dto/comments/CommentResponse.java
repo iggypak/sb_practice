@@ -1,4 +1,4 @@
-package com.skillbox.sb_practice.dto;
+package com.skillbox.sb_practice.dto.comments;
 
 import java.time.LocalDateTime;
 

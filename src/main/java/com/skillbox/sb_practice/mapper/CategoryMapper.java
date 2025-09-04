@@ -1,7 +1,7 @@
 package com.skillbox.sb_practice.mapper;
 
-import com.skillbox.sb_practice.dto.CategoryRequest;
-import com.skillbox.sb_practice.dto.CategoryResponse;
+import com.skillbox.sb_practice.dto.categoies.CategoryRequest;
+import com.skillbox.sb_practice.dto.categoies.CategoryResponse;
 import com.skillbox.sb_practice.entity.Category;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingTarget;

@@ -1,8 +1,8 @@
 package com.skillbox.sb_practice.controller;
 
-import com.skillbox.sb_practice.dto.CategoryRequest;
-import com.skillbox.sb_practice.dto.CategoryResponse;
-import com.skillbox.sb_practice.dto.CommonUpsertResponse;
+import com.skillbox.sb_practice.dto.categoies.CategoryRequest;
+import com.skillbox.sb_practice.dto.categoies.CategoryResponse;
+import com.skillbox.sb_practice.dto.comments.CommonUpsertResponse;
 import com.skillbox.sb_practice.service.CategoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -30,10 +30,5 @@ public class CategoryController {
     @PutMapping("/{id}")
     public ResponseEntity<CommonUpsertResponse> updateCategory(@PathVariable Long id, @RequestBody CategoryRequest request) {
         return ResponseEntity.status(HttpStatus.CREATED).body(categoryService.updateCategory(id, request));
-    }
-
-    @DeleteMapping("/{id}")
-    public ResponseEntity deleteById(@PathVariable Long id) {
-        return ResponseEntity.accepted().build();
     }
 }

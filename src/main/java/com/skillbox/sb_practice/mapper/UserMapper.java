@@ -1,9 +1,9 @@
 package com.skillbox.sb_practice.mapper;
 
-import com.skillbox.sb_practice.dto.UserCreateRequest;
-import com.skillbox.sb_practice.dto.UserResponse;
-import com.skillbox.sb_practice.dto.UserShortResponse;
-import com.skillbox.sb_practice.dto.UserUpdateRequest;
+import com.skillbox.sb_practice.dto.users.UserCreateRequest;
+import com.skillbox.sb_practice.dto.users.UserResponse;
+import com.skillbox.sb_practice.dto.users.UserShortResponse;
+import com.skillbox.sb_practice.dto.users.UserUpdateRequest;
 import com.skillbox.sb_practice.entity.User;
 import org.mapstruct.*;
 

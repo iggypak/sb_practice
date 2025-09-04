@@ -1,10 +1,9 @@
 package com.skillbox.sb_practice.service;
 
-import com.skillbox.sb_practice.dto.CommonUpsertResponse;
-import com.skillbox.sb_practice.dto.UserCreateRequest;
-import com.skillbox.sb_practice.dto.UserResponse;
-import com.skillbox.sb_practice.dto.UserUpdateRequest;
-import com.skillbox.sb_practice.entity.User;
+import com.skillbox.sb_practice.dto.comments.CommonUpsertResponse;
+import com.skillbox.sb_practice.dto.users.UserCreateRequest;
+import com.skillbox.sb_practice.dto.users.UserResponse;
+import com.skillbox.sb_practice.dto.users.UserUpdateRequest;
 import com.skillbox.sb_practice.exceptions.EntityNotFoundException;
 import com.skillbox.sb_practice.mapper.UserMapper;
 import com.skillbox.sb_practice.repository.UserRepository;
